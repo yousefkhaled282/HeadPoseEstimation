@@ -21,10 +21,7 @@ We used the 3D landmarks provided by the AFLW2000-3D dataset to calculate the pi
 ## Model Architecture
 We used a support vector regression (SVR) model to predict the pitch, yaw, and roll angles. We used the radial basis function (RBF) kernel with default parameters.
 
-## Results
-- Our pitch model achieved amean square error of 0.013 degrees on the test set.
-- Our yaw model achieved amean square error of 0.008 degrees on the test set.
-- Our roll model achieved amean square error of 0.019 degrees on the test set.
+
 
 ## output
 
