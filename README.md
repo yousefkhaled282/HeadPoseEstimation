@@ -19,7 +19,7 @@ This is a project for estimating the 2D head pose (pitch, yaw, and roll) of a pe
 We used the 3D landmarks provided by the AFLW2000-3D dataset to calculate the pitch, yaw, and roll angles. To prepare the data for training, we centered the 2D landmarks around the nose and normalized the distances to the top of head to have unit length.
 
 ## Model Architecture
-We used a support vector regression (SVR) model to predict the pitch, yaw, and roll angles. We used the radial basis function (RBF) kernel with default parameters.
+We used a support vector regression (SVR) model to predict the pitch, yaw, and roll angles. We used the radial basis function (RBF) kernel .
 
 
 
